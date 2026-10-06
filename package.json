@@ -1,0 +1,16 @@
+{
+  "name": "libtor2drive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Render-ready aria2 downloader and Google Drive uploader",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "googleapis": "^144.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
